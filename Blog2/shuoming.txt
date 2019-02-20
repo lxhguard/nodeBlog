@@ -1,0 +1,27 @@
+1. cnpm init 初始化。全部回车。
+2. cnpm install --save express  安装第三方插件
+3.目录结构:
+    db  数据库存储目录
+    models 数据库模型文件目录
+    node_modules    node第三方模块目录
+    public  公共文件目录(css,js,image...)
+    routers 路由文件目录
+    schemas 数据库结构文件（schema）目录
+    views   模版视图文件目录
+    app.js  应用(启动)入口文件
+    package.json  
+
+4. cnpm install swig  需要手动进入项目根目录安装这个模块
+5.终端输入：cd  /usr/local/Cellar/mongodb/4.0.3_1//bin 指定到当前目录
+mongod --dbpath=/Users/wanggonggege/Desktop/node开发博客/Blog2/db --port=27018
+
+另外一种配置方式：
+配置环境变量，打开终端，输入“open -e .bash_profile”，在打开的文件中加入
+export PATH=${PATH}:/usr/local/MongoDB/bin
+用Command+S保存配置，关闭上面的.bash_profile编辑窗口，
+然后在下图中输入"source .bash_profile"使配置生效。
+输入"mongod -version"，回车后如果看到下面的版本号则说明MongoDB已经成功安装到了Mac上。
+运行：mongod
+退出:use admin;
+db.shutdownServer();
+

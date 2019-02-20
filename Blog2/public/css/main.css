@@ -1,0 +1,20 @@
+body{
+    background: white;
+}
+.rightBox{
+    position: absolute;
+    top:200px;
+    right: 50px;
+    border: 1px solid grey;
+    padding: 20px;
+    text-align: center;
+}
+.shequBox{
+    position: absolute;
+    top:450px;
+    right: 50px;
+    width: 180px;
+    border: 1px solid grey;
+    padding: 20px;
+    text-align: center;
+}
